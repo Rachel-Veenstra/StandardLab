@@ -76,7 +76,7 @@
 
 >- Separated based on identified set size
 >> - Standard curve (C) values unique to analysis type
-- Uniquely named based on name of original .csv file, set number, analysis type
+- Uniquely named based on name of original .csv file, repetition, set number, analysis type
 
 <br>
 
