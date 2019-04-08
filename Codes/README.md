@@ -8,8 +8,8 @@
 
 #### Inputs: 
 > ##### .csv file (NAMED IN FORMAT SPECIFIED) with Sample ID information in "Student_Lists" folder
-- Naming format: (Initials)_(StudyAbbreviation).csv
-- Example: RV_PYN.csv
+>- Naming format: (Initials)_(StudyAbbreviation).csv
+>- Example: RV_PYN.csv
 
 > ##### User input (when prompted) of how many samples will be run per set
 
@@ -17,7 +17,7 @@
 
 #### Output:
 > ##### Set of datasheets in Lab_Sheets folder that are:
-- Comprised of four columns
+>- Comprised of four columns
 
 >>1) Data type : Contains class information given as B (blank), C (curve), O (original sample), or D (duplicated sample)
 
@@ -30,7 +30,7 @@
 >- Separated based on identified set size
 >- Duplicated for ureide and nitrate analysis
 >> - Standard curve (C) values unique to analysis type
-- Uniquely named based on name of original .csv file, set number, analysis type
+>- Uniquely named based on name of original .csv file, set number, analysis type
 
 <br>
 
@@ -52,8 +52,8 @@
 
 #### Inputs: 
 > ##### Completed lab .csv files (NAMED IN FORMAT SPECIFIED) in topic folder in "Lab_Sheets" folder
-- Naming format: (Repetition)_(Set#)_(AnalysisType)_(Initials)_(StudyAbbreviation)_(topic/studysubset)_(date).csv
-- Example: A_1_NIT_RV_PYN_MO_04_18_19.csv
+>- Naming format: (Repetition)_(Set#)_(AnalysisType)_(Initials)_(StudyAbbreviation)_(topic/studysubset)_(date).csv
+>- Example: A_1_NIT_RV_PYN_MO_04_18_19.csv
 
 > ##### Created folder named "Completed" in topic folder with completed lab sheets. 
 
@@ -64,7 +64,7 @@
 > ##### Files with curves of unacceptable r-squared renamed as "x_BAD_CURVE....".csv.
 > ##### Samples in sheets with bad curves, and any samples with unacceptable variance between original and duplicates used to create datasheets for re-running.
 > ##### Set of datasheets saved in topic folder of "Lab_Sheets" folder that are:
-- Comprised of four columns
+>- Comprised of four columns
 
 >>1) Data type : Contains class information given as B (blank), C (curve), O (original sample), or D (duplicated sample)
 
@@ -76,7 +76,7 @@
 
 >- Separated based on identified set size
 >> - Standard curve (C) values unique to analysis type
-- Uniquely named based on name of original .csv file, repetition, set number, analysis type
+>- Uniquely named based on name of original .csv file, repetition, set number, analysis type
 
 <br>
 
