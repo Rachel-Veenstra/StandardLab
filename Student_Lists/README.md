@@ -17,6 +17,8 @@ Naming is standardized and understood in a specific way by the codes, so be sure
 > - MS_GH_LI
 > - RV_#_CTS
 
-After sheets created with your list, they will be automatically moved to a "Completed" folder in this directory. **LEAVE THESE LISTS IN THIS FOLDER.**
+After sheets created with your list, they will be automatically moved to a "Completed" folder in this directory. 
+
+**LEAVE THESE LISTS IN THIS FOLDER.**
 
 Failure to properly organize data will result in an error message when the final "ure_nit_concentration" code is run.
