@@ -2,13 +2,13 @@
 ## Purpose, Inputs, Outputs, Authors, & Updates
 
 ### A. Ureides and Nitrates:
-> #### Correct Order for Code-Flow
+> #### **Correct Order for Code-Flow**
 > - 1) make_sheets
 > - 2) lab_checks *(optional)*
 > - 3) data_screening
 > - 4) ure_nit_concentration
 
->#### 1) 'make_sheets' Code
+>#### **1) 'make_sheets' Code**
 
 >> #### Purpose: 
 >>> ##### Importing files, extracting data, and creating a set of datasheets for lab use.
@@ -51,10 +51,10 @@
 <br>
 <br>
 
-> #### 2) 'lab_checks' Code
+> #### **2) 'lab_checks' Code**
 
 >> #### Purpose: 
->>> ##### Simple scan for informational evaluation of set quality - as requested by lab technicians.
+>>> ##### Simple scan for informational evaluation of set quality - as requested by lab technicians. **For more detailed information on selected quality screening parameters, click [here](https://github.com/Rachel-Veenstra/StandardLab/blob/master/Screening_Params.md).**
 
 <br>
 
@@ -72,10 +72,10 @@
 >>> ##### Printed analysis of blanks, curve, corrected curve, and individual sample variance.
 >>>>- Example: A_1_URE_MS_GH_LI_06_25_18
 
->>>> ```This sheet has the following properties:```
-```- Acceptable blank readings.```
-```- A calibration curve r-squared value of 0.8999.```
-```- A CORRECTED curve r-squared value of 0.9527.```
+>>>> ```This sheet has the following properties:```<br>
+```- Acceptable blank readings.```<br>
+```- A calibration curve r-squared value of 0.8999.```<br>
+```- A CORRECTED curve r-squared value of 0.9527.```<br>
 ```- Greater than 10% variance in 1 sample(s).```
 
 
@@ -89,7 +89,7 @@
 <br>
 <br>
 
-> #### 3) 'data_screening' Code
+> #### **3) 'data_screening' Code**
 
 >>#### Purpose: 
 >>> ##### Importing files, extracting data, and screening completed datasheets for quality parameters. **For more detailed information on selected quality screening parameters, click [here](https://github.com/Rachel-Veenstra/StandardLab/blob/master/Screening_Params.md).**
@@ -137,7 +137,7 @@
 <br>
 <br>
 
-> #### 4) 'ure_nit_concentration' Code
+> #### **4) 'ure_nit_concentration' Code**
 
 >>#### Purpose: 
 >>> ##### Importing and extracting data from completed, screened datasheets. **For more detailed information on selected quality screening parameters, click [here](https://wwww.github.com/Rachel-Veenstra/StandardLab/blob.master/Screening_Params.md).**
