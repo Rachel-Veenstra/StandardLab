@@ -1,14 +1,18 @@
 # StandardLab Coding Documentation
-## Purpose, Inputs, Outputs, Authors, & Updates
+### Purpose, Inputs, Outputs, Authors, & Updates
+<br>
 
-### Ureides and Nitrates:
+## **_Ureides and Nitrates:_**
 > #### **Correct Order for Code-Flow**
 > - 1) make_sheets
 > - 2) lab_checks *(optional)*
 > - 3) data_screening
 > - 4) ure_nit_concentration
 
-### 1) 'make_sheets' Code
+<br>
+<br>
+
+### 1) **_'make__sheets' Code_**
 
 > #### Purpose: 
 >> ##### Importing files, extracting data, and creating a set of datasheets for lab use.
@@ -51,7 +55,7 @@
 <br>
 <br>
 
-### 2) 'lab_checks' Code
+### 2) **_'lab__checks' Code_**
 
 > #### Purpose: 
 >> ##### Simple scan for informational evaluation of set quality - as requested by lab technicians. **For more detailed information on selected quality screening parameters, click [here](https://github.com/Rachel-Veenstra/StandardLab/blob/master/Screening_Params.md).**
@@ -89,7 +93,7 @@
 <br>
 <br>
 
-### 3) 'data_screening' Code
+### 3) **_'data__screening' Code_**
 
 >#### Purpose: 
 >> ##### Importing files, extracting data, and screening completed datasheets for quality parameters. **For more detailed information on selected quality screening parameters, click [here](https://github.com/Rachel-Veenstra/StandardLab/blob/master/Screening_Params.md).**
@@ -137,7 +141,7 @@
 <br>
 <br>
 
-### 4) 'ure_nit_concentration' Code
+### 4) **_'ure__nit__concentration' Code_**
 
 >#### Purpose: 
 >> ##### Importing and extracting data from completed, screened datasheets. **For more detailed information on selected quality screening parameters, click [here](https://wwww.github.com/Rachel-Veenstra/StandardLab/blob.master/Screening_Params.md).**
@@ -156,16 +160,12 @@
 <br>
 
 >#### Output:
->> ##### Files moved to "Completed" folder within topic folder after running.
->> ##### Files with curves of unacceptable blank values renamed as "x_BAD_BLANKS....".csv.
->> ##### Files with curves of unacceptable r-squared renamed as "x_BAD_CURVE....".csv.
->> ##### Samples in sheets with bad curves, and any samples with unacceptable variance between original and duplicates are identified and used to create datasheets for necessary repetitions.
 >> ##### Set of two results sheets for each experiment/location (one for ureides and one for nitrates) saved in new folder (named based on experiment) in "Results" directory that are:
 >>- Comprised of two types of columns:
 
 >>>1) Sample_ID : Contains identification information for blanks, curve values, and *DUPLICATED* Sample ID values from list to be re-run
 
->>>2 - *end*) Concentration : Calculated ureide or nitrate concentration (extrapolated from curve absorbances and corrected by blank values)
+>>>2) Concentration : Calculated ureide or nitrate concentration (extrapolated from curve absorbances and corrected by blank values)
 
 >>- Concentration columns are named based on the sheet from which data in that column was taken to allow for easy checks of "off-data" in the results sheet.
 
