@@ -73,13 +73,9 @@
 >>>>- Example: A_1_URE_MS_GH_LI_06_25_18
 
 >>>> ```This sheet has the following properties:```
-<br>
 ```- Acceptable blank readings.```
-<br>
 ```- A calibration curve r-squared value of 0.8999.```
-<br>
 ```- A CORRECTED curve r-squared value of 0.9527.```
-<br>
 ```- Greater than 10% variance in 1 sample(s).```
 
 
@@ -96,7 +92,7 @@
 > #### 3) 'data_screening' Code
 
 >>#### Purpose: 
->>> ##### Importing files, extracting data, and screening completed datasheets for quality parameters. **For more detailed information on selected quality screening parameters, click [here](https://wwww.github.com/Rachel-Veenstra/StandardLab/blob.master/Screening_Params.md).**
+>>> ##### Importing files, extracting data, and screening completed datasheets for quality parameters. **For more detailed information on selected quality screening parameters, click [here](https://github.com/Rachel-Veenstra/StandardLab/blob/master/Screening_Params.md).**
 
 >>> ##### Runs through sheets on a folder-by-folder basis to keep each topic/study subset separate.
 
