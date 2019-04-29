@@ -24,14 +24,17 @@ _(See flow chart below for illustrations)_
 >>- Decision matrix calculates all possible r<sup>2</sup> values removing two of the curve points.
 >>- If the highest possible r<sup>2</sup> value of 10 points is not "good", set needs to be re-run because the curve data is not reliable for final concentration calculations.
 
+_(See flow chart below for illustrations)_
+
 ### Samples
 - A "good" sample will have a difference of < 10% between original and duplicate readings.
 - **Variance = ( ( Absorbance**<sub>*MAX*</sub> **- Absorbance**<sub>*MIN*</sub>**) / Absorbance**<sub>*MAX*</sub> **) x 100%**
 - A sample with > 10% difference will be re-run.
 - _However_, the initial "bad" sample reading is calculated for concentration and included in the final datasheet for student viewing, but flagged as such ("x_"). There are several reasons for this:
 >- The samples were run on a good curve with good blanks.
->- "The 10% Rule" may not be the best parameter for determining which samples need to be run again. (*Example: Variance between very low readings*)
+>- "The 10% Rule" may not be the best parameter for determining which samples need to be run again. <br> (*Example: Variance between very low readings*)
 
+_(See flow chart below for illustrations)_
 
 ### ***"data__screening"* Code Flow Chart**
 
