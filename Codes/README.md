@@ -58,7 +58,7 @@
 ### 2) **_'lab__checks' Code_**
 
 > #### Purpose: 
->> ##### Simple scan for informational evaluation of set quality - as requested by lab technicians. **For more detailed information on selected quality screening parameters, click [here](https://github.com/Rachel-Veenstra/StandardLab/blob/master/Additional Documentation).**
+>> ##### Simple scan for informational evaluation of set quality - as requested by lab technicians. **For more detailed information on selected quality screening parameters, click [here](https://github.com/Rachel-Veenstra/StandardLab/blob/master/Additional_Documentation/Screening_Params.md).**
 
 <br>
 
@@ -96,7 +96,7 @@
 ### 3) **_'data__screening' Code_**
 
 >#### Purpose: 
->> ##### Importing files, extracting data, and screening completed datasheets for quality parameters. **For more detailed information on selected quality screening parameters, click [here](https://github.com/Rachel-Veenstra/StandardLab/blob/master/Additional Documentation).**
+>> ##### Importing files, extracting data, and screening completed datasheets for quality parameters. **For more detailed information on selected quality screening parameters, click [here](https://github.com/Rachel-Veenstra/StandardLab/blob/master/Additional_Documentation/Screening_Params.md).**
 
 >> ##### Runs through sheets on a folder-by-folder basis to keep each topic/study subset separate.
 
@@ -144,7 +144,7 @@
 ### 4) **_'ure__nit__concentration' Code_**
 
 >#### Purpose: 
->> ##### Importing and extracting data from completed, screened datasheets. **For more detailed information on selected quality screening parameters, click [here](https://wwww.github.com/Rachel-Veenstra/StandardLab/blob.master/Additional Documentation).**
+>> ##### Importing and extracting data from completed, screened datasheets. **For more detailed information on selected quality screening parameters, click [here](https://github.com/Rachel-Veenstra/StandardLab/blob/master/Additional_Documentation/Screening_Params.md).**
 
 >> ##### Runs through sheets on a folder-by-folder basis to keep each topic/study subset separate.
 
