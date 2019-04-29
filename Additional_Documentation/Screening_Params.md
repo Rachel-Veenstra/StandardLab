@@ -1,7 +1,10 @@
 # StandardLab Data Screening Parameters
 
+Author: Rachel Veenstra<br>
+Date Created: 04-26-2019<br>
+Date Updated: 04-29-2019
 
-## **"data_screening" code:**
+## **"data_screening" Code**
 
 To ensure data quality, standardize processes for repeatability, and establish criteria for the purpose of bias removal in spec data analysis, the following benchmarks have been set for screening the quality of ureide and nitrate datasheets:
 
@@ -37,9 +40,7 @@ _(See flow chart below for illustrations)_
 _(See flow chart below for illustrations)_
 
 ### ***"data__screening"* Code Flow Chart**
+<br>
 
 ![alt text](https://github.com/Rachel-Veenstra/StandardLab/blob/master/Additional_Documentation/data_screening_work_flow.png "data-screening Code Flow Chart")
 
-Author: Rachel Veenstra
-
-Created: April 2019
