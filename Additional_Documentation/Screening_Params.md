@@ -39,6 +39,12 @@ _(See flow chart below for illustrations)_
 
 _(See flow chart below for illustrations)_
 
+### Final Calculations
+- If a set passes screening, it will be saved in the appropriate way to be run for concentration calculations.
+- Conversely, if it fails, it will be saved such that it will be ignored by subsequent concentation calculation codes.
+
+<br>
+
 ### ***"data__screening"* Code Flow Chart**
 <br>
 
